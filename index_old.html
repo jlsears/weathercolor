@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Colors Array</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> <!-- bootstrap -->
+  <link rel="stylesheet" href="style.css"> <!-- css stylesheet -->
+</head>
+<body ng-app="myModule"> <!-- tie the module in here -->
+
+<h1>Look at all these colors, guys!</h1>
+
+<div id="firstDiv" ng-controller="ColorCtrl"> <!-- tie the controller in here -->
+  <div id="forColors" ng-repeat="color in colors">
+    {{color}}  <!-- corresponding to the scope name assigned to the array in the controller -->
+
+  </div>
+</div>
+
+
+
+<script src="bower_components/angular/angular.js"></script> <!-- angular -->
+<script src="coloringcontroller.js"></script> <!-- controller file -->
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script> <!-- jquery -->
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> <!-- more jquery -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> <!-- bootstrap -->
+</body>
+</html>

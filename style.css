@@ -1,0 +1,35 @@
+
+
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR29Hiv7F44C5lNP1Ka5NXJh4D3QdnrfNztwqWKOIkjFEdfWWym);
+}
+
+.navbar-default {
+  background-color: ; opacity: 0.75; filter: alpha(opacity=75);
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #DC4C18;
+}
+
+container {
+  max-width: 70%;
+  max-height: 1200px;
+}
+
+#conditions-pretty {
+  text-align: center;
+  max-width: 95%;
+  height: 1200px;
+  background-color: gray;
+  color: white;
+  margin: 0 auto;
+  padding-top: 25px;
+}

@@ -1,0 +1,19 @@
+
+<div class="container">
+  <div id="conditions-pretty">
+    h1 {{message}}
+
+    <form>
+      
+      <label class="zipcode">Zip Code</label> <br>
+      <input id="zip" ng-model="zip" name="zip">
+      <button ng-click='getConditions()' class=''>Submit</button>
+
+    </form>
+
+
+    <h1>Your temp is:</h1>
+    <h1>{{temp}}</h1>
+
+  </div>
+</div>
